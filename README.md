@@ -104,9 +104,8 @@ newdata_weight=dataset[(dataset['weight']>=l_weight) & (dataset['weight']<=u_wei
 print(newdata_weight)
 sns.boxplot(x='weight',data=newdata_weight)
 ```
-### OUTPUT:
-bhp.csv 
-IQR METHOD
+# OUTPUT:
+# bhp.csv 
 # df.head()
 ![image](https://user-images.githubusercontent.com/113497571/227278070-84105a5b-bf1e-43e6-bc58-e41ab5a4e5ce.png)
 
